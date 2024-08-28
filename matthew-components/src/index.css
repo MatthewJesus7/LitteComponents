@@ -2,10 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+.button_card {
+    @apply size-20 mt-5;
+}
+
+.component_card {
+    @apply w-full h-[400px];
+    @apply px-2;
+}
+
+.card {
+    @apply shadow-md;
+    @apply hover:shadow-lg;
+    @apply border rounded-xl; 
+    @apply ease-out; 
+    @apply duration-300; 
+    @apply hover:scale-[1.02]; 
+    @apply overflow-hidden;
+}
+
 h1 {
 
 }
 
 h2 {
-    
+
 }
